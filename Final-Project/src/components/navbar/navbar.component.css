@@ -1,0 +1,46 @@
+.mat-toolbar {
+  background: black !important;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px 20px;
+  align-items: center;
+}
+
+.avatar {
+  margin-left: auto; /* דוחף את ה-avatar לצד ימין */
+  
+}
+
+.avatar-icon {
+  background-color: #fff;
+  color: black;
+  font-size: 25px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-weight: bold; /* הופך את האות לעבה יותר */
+
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+}
+
+.menu-item {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transition: color 0.3s;
+}
+
+.menu-item:hover {
+  color: lightgray;
+}
