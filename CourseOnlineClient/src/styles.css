@@ -3,7 +3,7 @@
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 body {
-    background-image: url('images/bbb.jpg');
+    background-image: url('images/composition-laptop-stationery-tools-painting.jpg');
     width: 100%;
     height: 100%;
     background-size: cover;
@@ -11,4 +11,5 @@ body {
     z-index: -1;
     background-color: black;
     background-repeat: no-repeat;
+
   }

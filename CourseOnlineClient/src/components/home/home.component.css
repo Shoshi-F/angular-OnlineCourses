@@ -1,23 +1,29 @@
 
 
+.highlight-text {
+  font-weight: bold; /* עושה את הטקסט מודגש */
+}
+
 .about-container {
   text-align: center;
   font-family: "Arial", sans-serif;
-  color: rgb(8, 8, 8);
+  /* color: rgb(8, 8, 8); */
+  color: white;
   max-width: 800px;
   margin:165px;
-  margin-left: 100px;
+  margin-left: 340px;
+  
 
 
 }
-
-
 
 h1 {
   font-size: 3em;
   font-weight: bold;
   margin-bottom: 10px;
-  color: #000000;
+  /* color: #000000; */
+  color: white;
+
 }
 
 h2 {
@@ -31,6 +37,8 @@ h2 {
   font-weight: bold;
   color: #000000;
   margin-bottom: 15px;
+  color: white;
+
 }
 
 p {
@@ -41,6 +49,7 @@ p {
 .cta {
   font-size: 1.5em;
   font-weight: bold;
-  color: #000000;
+  /* color: #000000; */
+  color: white;
   margin-top: 20px;
 }
